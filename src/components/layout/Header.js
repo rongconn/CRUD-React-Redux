@@ -10,11 +10,7 @@ class Header extends Component {
                             <div className="mask rgba-black-light flex-center">
                                 <div className="container text-center white-text">
                                     <div className="white-text text-center wow fadeInUp">
-                                        <h2>React CRUD simple</h2>
-                                        <h5></h5>
-                                        
-                                            <p></p>
-                    
+                                        <h2>React CRUD simple</h2>                    
                                     </div>
                                 </div>
                             </div>

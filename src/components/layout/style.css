@@ -5,6 +5,12 @@
 .view {
     height: 100%;
 }
-.footertext {
-    text-align: center;
+.viewfooter {
+     position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:cyan;
+  color: white;
+  text-align: center;
 }

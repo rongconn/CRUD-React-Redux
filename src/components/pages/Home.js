@@ -52,17 +52,17 @@ class Home extends Component {
                   <td>{user.username}</td>
                   <td>{user.email}</td>
                   <td>
-                    <Link className="btn btn-primary mr-2" to={`/users/${user.id}`}  >
+                    <Link className="btn btn-outline-primary mr-2" to={`/users/${user.id}`}  >
                       View
                                          </Link>
                     <Link
-                      className="btn btn-outline-primary mr-2"
+                      className="btn btn-outline-warning mr-2"
                       to={`/users/edit/${user.id}`}
                     >
                       Edit
                                         </Link>
                     <Link
-                      className="btn btn-danger"
+                      className="btn btn-outline-danger"
                       onClick={() => this.deleteUser(user.id)}
                     >
                       Delete

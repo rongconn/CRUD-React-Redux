@@ -2,8 +2,8 @@ import React, {Component} from "react";
 class Footer extends Component{
     render(){
         return(
-            <div className="card-footer text-muted footertext">
-            Footer
+            <div className="viewfooter card-footer text-muted ">
+            <h2>Footer</h2>
           </div>
         )
     }

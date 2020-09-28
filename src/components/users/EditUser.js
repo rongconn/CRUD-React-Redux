@@ -87,7 +87,7 @@ const EditUser = () => {
               onChange={e => onInputChange(e)}
             />
           </div>
-          <button className="btn btn-warning btn-block">Update User</button>
+          <button className="btn btn-primary btn-block">Update User</button>
         </form>
       </div>
     </div>
