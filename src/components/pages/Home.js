@@ -11,6 +11,7 @@ class Home extends Component {
 
   componentDidMount() {
     this.loadUsers();
+    console.log("kkk");
   }
 
   loadUsers = async () => {
